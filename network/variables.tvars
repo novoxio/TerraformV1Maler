@@ -1,0 +1,2 @@
+resource_group_name = "my-resource-group"
+region             = "Norway West"  # Region in Western Norway
