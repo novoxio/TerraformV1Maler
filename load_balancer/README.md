@@ -45,11 +45,5 @@ terraform apply       # Apply the configuration to Azure</code></pre>
     <li><code>db_lb_backend_pool_id</code>: The ID of the backend pool associated with the load balancer.</li>
   </ul>
 
-  <h2>License</h2>
-  <p>This project is licensed under the MIT License.</p>
-
-  <footer>
-    <p>&copy; 2024 Azure Load Balancer Setup</p>
-  </footer>
 
 </body>
