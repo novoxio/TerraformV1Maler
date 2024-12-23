@@ -1,40 +1,5 @@
+<h1>Azure Load Balancer Setup with Terraform</h1>
 
-### HTML Version of the README.md
-
-To display the contents of the above markdown in an HTML page, here's a basic HTML template that will render the content as it would appear on a webpage:
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Azure Load Balancer Setup with Terraform</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 40px;
-    }
-    h1, h2 {
-      color: #2c3e50;
-    }
-    code {
-      background-color: #f4f4f4;
-      padding: 5px;
-      border-radius: 4px;
-    }
-    pre {
-      background-color: #f4f4f4;
-      padding: 15px;
-      border-radius: 4px;
-      overflow-x: auto;
-    }
-  </style>
-</head>
-<body>
-
-  <h1>Azure Load Balancer Setup with Terraform</h1>
   <p>This repository provides a Terraform configuration for setting up an Azure Load Balancer for database VMs. The resources defined in this template include:</p>
 
   <ul>
@@ -83,5 +48,8 @@ terraform apply       # Apply the configuration to Azure</code></pre>
   <h2>License</h2>
   <p>This project is licensed under the MIT License.</p>
 
+  <footer>
+    <p>&copy; 2024 Azure Load Balancer Setup</p>
+  </footer>
+
 </body>
-</html>
