@@ -49,33 +49,29 @@
 
 <h2>Bruk</h2>
 
-<h3>1. Klon prosjektet</h3>
-<p>Klon dette prosjektet til din lokale maskin:</p>
-<pre><code>git clone https://github.com/your-username/terraform-azure-vnet.git
-cd terraform-azure-vnet</code></pre>
 
-<h3>2. Initialiser Terraform</h3>
+<h3>1. Initialiser Terraform</h3>
 <p>Kjør <code>terraform init</code> for å initialisere arbeidskatalogen din. Denne kommandoen laster ned nødvendige leverandør-plugins.</p>
 <pre><code>terraform init</code></pre>
 
-<h3>3. Tilpass Variabler (Valgfritt)</h3>
+<h3>2. Tilpass Variabler (Valgfritt)</h3>
 <p>Du kan justere verdiene for ditt miljø ved å endre <code>variables.tfvars</code>-filen. For eksempel:</p>
 <pre><code>resource_group_name = "min-unik-ressursgruppe"
 region             = "Norway West"</code></pre>
 
-<h3>4. Gjennomgå Utførelsesplanen</h3>
+<h3>3. Gjennomgå Utførelsesplanen</h3>
 <p>Før du bruker konfigurasjonen, kan du kjøre følgende kommando for å se hva Terraform planlegger å gjøre:</p>
 <pre><code>terraform plan</code></pre>
 
-<h3>5. Bruk Konfigurasjonen</h3>
+<h3>4. Bruk Konfigurasjonen</h3>
 <p>Når du er fornøyd med planen, kan du bruke konfigurasjonen:</p>
 <pre><code>terraform apply</code></pre>
 <p>Terraform vil be om bekreftelse før den går videre. Skriv <code>yes</code> for å bekrefte.</p>
 
-<h3>6. Se Output</h3>
+<h3>5. Se Output</h3>
 <p>Etter at ressursene er opprettet, vil Terraform vise output-ene som er definert i <code>outputs.tf</code>. Disse inkluderer navnet på det virtuelle nettverket, subnettet og adresseprefiksene til subnettet.</p>
 
-<h3>7. Ødelegg Ressursene (Valgfritt)</h3>
+<h3>6. Ødelegg Ressursene (Valgfritt)</h3>
 <p>Hvis du ikke lenger trenger ressursene, kan du ødelegge dem med følgende kommando:</p>
 <pre><code>terraform destroy</code></pre>
 <p>Terraform vil be om bekreftelse før den går videre. Skriv <code>yes</code> for å bekrefte.</p>
